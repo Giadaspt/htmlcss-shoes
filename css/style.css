@@ -12,6 +12,7 @@ body {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* header */
 header {
   height: 32px;
   position: fixed;
@@ -21,6 +22,7 @@ header {
   z-index: 500;
 }
 
+/* menu */
 li{
   display: inline-block;
   text-align: center;
@@ -30,11 +32,11 @@ li{
   line-height: 32px;
   background-color: white;
   border-radius: 50%;
-  border: 1px solid lightgray;
 }
 
 li:hover {
   box-shadow: 3px 3px rgba(0, 0, 0, .5);
+  cursor: pointer;
 }
 
 a {
@@ -43,6 +45,7 @@ a {
   font-size: 16px;
 }
 
+/* section and images */
 section .box {
   position: relative;
   width: 100%;
@@ -61,7 +64,7 @@ section .box {
   background-color: rgb(255,253,0);
 }
 
-
+/* text under the image */
 p {
   font-size: 64px;
 }
@@ -74,7 +77,7 @@ p {
   color: rgb(32,128,0);
 }
 
-
+/* position of the image */
 .shoes {
   position: absolute;
   left: 50%;
@@ -82,9 +85,9 @@ p {
   transform: translate(-50%, -50%);
 }
 
-section::before {
+/*section::before {
   content: "";
   display: block;
   height: 32px;
   margin: -32px 0 0; 
-}
+}*/
